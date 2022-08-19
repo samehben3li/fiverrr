@@ -1,0 +1,81 @@
+.landing {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: #F2FAFA;
+    display: flex;
+    align-items: center;
+}
+
+.landingImgContainer,
+.landingInfo {
+    flex: 1;
+}
+
+.landingImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.landingImg {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.landingInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landingTitle {
+    font-weight: 700;
+    font-size: 40px;
+    color: #252525;
+    margin-bottom: 15px;
+}
+
+.landingDesc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #252525;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.landingSearch {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: max-content;
+    padding: 5px 10px;
+    padding-right: 0;
+    border-radius: 10px;
+}
+
+.landingSearchIcon {
+    font-size: 20px;
+    color: #252525;
+}
+
+.landingInput {
+    border: none;
+    outline: none;
+    color: #252525;
+}
+
+.landingBtn {
+    background: #1E88E5;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFEAEA;
+    cursor: pointer;
+}
